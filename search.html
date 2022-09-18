@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="page">
+        
+        <header class="header">
+            <div class="header__left">
+                <nav class="navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="index.html">Главная</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link navbar__link-subnav" href="#">Статьи</a>
+                            <ul class="navbar__link-subnav-list">
+                                <li>
+                                    <a class="navbar__link-subnav-link" href="search.html">Создание сайтов</a>
+                                </li>
+                                <li>
+                                    <a class="navbar__link-subnav-link" href="#">Интернет-маркетинг</a>
+                                </li>
+                                <li>
+                                    <a class="navbar__link-subnav-link" href="#">Продвижение видео</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="text.html">Обо мне</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="text.html">Реклама</a>
+                        </li>
+                    </ul>
+                </nav>
+        
+                <button class="burger" type="button" id="sidebarToggle">
+                    <span>Открыть навигацию</span>
+                </button>
+            </div>
+            <div class="header__right">
+                <nav class="navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="signup.html">Регистрация</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="cabinet.html">Профиль</a>
+                        </li>
+                    </ul>
+                </nav>
+                    <form class="search" action="search.html" method="get">
+                        <input class="search__input" type="text" placeholder="Поиск по блогу">
+                    </form>
+            </div>
+        </header>
+
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar__header">
+                <img src="assets/images/SidebarImg.jpg" alt="Picture sidebar">
+            </div>
+            <div class="sidebar__content">
+                <div class="profile">
+                    <img src="assets/images/ava.jpg" alt="My photo" class="profile__photo">
+                    <h1 class="profile__name">Алексей Бобко</h1>
+                    <p class="profile__prof">блог front-end разработчика</p>
+        
+                    <nav class="navbar navbar-mobile">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a class="navbar__link" href="index.html">Главная</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a class="navbar__link navbar__link-subnav" href="#">Статьи</a>
+                                <ul class="navbar__link-subnav-list">
+                                    <li>
+                                        <a class="navbar__link-subnav-link" href="search.html">Создание сайтов</a>
+                                    </li>
+                                    <li>
+                                        <a class="navbar__link-subnav-link" href="#">Интернет-маркетинг</a>
+                                    </li>
+                                    <li>
+                                        <a class="navbar__link-subnav-link" href="#">Продвижение видео</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navbar__item">
+                                <a class="navbar__link" href="text.html">Обо мне</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a class="navbar__link" href="text.html">Реклама</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a class="navbar__link" href="signup.html">Регистрация</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a class="navbar__link" href="cabinet.html">Профиль</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="social">
+                        <li class="social__item">
+                            <a href="https://t.me/AlexeyBobko" class="social__link" target="_blank">
+                                <img src="assets/images/telegram.svg" alt="Telegram">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://vk.com/idleshabobko" class="social__link" target="_blank">
+                                <img src="assets/images/vkontakte.svg" alt="VK">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://github.com/AlexeyBobko" class="social__link" target="_blank">
+                                <img src="assets/images/github.svg" alt="GitHub">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="profile__text">
+                        Front-end-developer. Практик верстки сайтов.Созданием сайтов занимаюсь с 2021 года. Закончил курсы по верстке от Андрея Гаврилова(WayUP). Прошел углубленный курс по JS и React от Ивана Петриченко. Умею работать с Gulp, WebPack, Jquery, SASS/SCSS, Git, GitHub. При написании кода использую методологию БЭМ. Работю с препроцессорами SASS/SCSS
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar__footer">
+                <a href="works.html" class="btn btn-red">
+                    Мои работы
+                </a>
+                <button class="btn btn-blue" type="button" data-modal="contact-modal">
+                    Написать мне
+                </button>
+            </div>
+        </aside>    
+        <main class="main">
+            <div class="container">
+                <h2 class="page__title">Результаты поиска “Создание сайтов”</h2>
+                <article class="article">
+                    <div class="article__header article__header-preview">
+                    </div>
+                    <div class="article__content">
+                        <h3 class="article__title">
+                            <a href="post.html" class="article__title-link">Погружаюсь в JavaScript</a>
+                        </h3>
+                        <p class="article__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+                        </p>
+                    </div>
+                    <div class="article__footer">
+                        <ul class="article__data">
+                            <li class="article__data-item">
+                                <time class="article__data-time" datetime="2022-07-02">02.07.2022</time>
+                            </li>
+                            <li class="article__data-item">
+                                <a href="#">создание сайтов</a>
+                            </li>
+                        </ul>
+                        <a href="post.html" class="article__read">Перейти</a>
+                    </div>
+                </article>
+                <article class="article">
+                    <div class="article__header article__header-preview">
+                    </div>
+                    <div class="article__content">
+                        <h3 class="article__title">
+                            <a href="post.html" class="article__title-link">Погружаюсь в JavaScript</a>
+                        </h3>
+                        <p class="article__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+                        </p>
+                    </div>
+                    <div class="article__footer">
+                        <ul class="article__data">
+                            <li class="article__data-item">
+                                <time class="article__data-time" datetime="2022-07-02">02.07.2022</time>
+                            </li>
+                            <li class="article__data-item">
+                                <a href="#">создание сайтов</a>
+                            </li>
+                        </ul>
+                        <a href="post.html" class="article__read">Перейти</a>
+                    </div>
+                </article>
+                <article class="article">
+                    <div class="article__header article__header-preview">
+                    </div>
+                    <div class="article__content">
+                        <h3 class="article__title">
+                            <a href="post.html" class="article__title-link">Погружаюсь в JavaScript</a>
+                        </h3>
+                        <p class="article__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+                        </p>
+                    </div>
+                    <div class="article__footer">
+                        <ul class="article__data">
+                            <li class="article__data-item">
+                                <time class="article__data-time" datetime="2022-07-02">02.07.2022</time>
+                            </li>
+                            <li class="article__data-item">
+                                <a href="#">создание сайтов</a>
+                            </li>
+                        </ul>
+                        <a href="post.html" class="article__read">Перейти</a>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </div>
+   
+    <div class="modal" id="contact-modal">
+        <div class="modal__content">
+            <form action="/" class="form" method="post">
+                <div class="form__group form__group-md">
+                    <input type="text" class="form__control" placeholder="Вашe имя" value="Алексей Бобко">
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__group form__group-md">
+                    <input type="email" class="form__control" placeholder="Ваш email">
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__group form__group-md">
+                    <textarea class="form__control" placeholder="Текст сообщения"></textarea>
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__footer">
+                    <div class="form__froup">
+                        <button type="submit" class="btn btn-blue btn-rounded">Отправить</button>
+                    </div>
+                </div>
+        </form>
+        <ul class="modal__footer">
+            <li>
+                e-mail: <a href="mailto:info@mywebsite.ru">info@mywebsite.ru</a>    
+            </li>  
+            <li>
+                тел: <a href="tel: +94323285622">+943-232-856-22</a>
+            </li>
+        </ul>
+        <button class="modal__close" type="button">
+            <img src="assets/images/cancel.svg" alt="Close">
+        </button>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal__content modal__content-contact">
+            <ul class="social">
+                <li class="social__item">
+                    <a href="https://t.me/AlexeyBobko" class="social__link">
+                        <img src="assets/images/share/facebook.svg" alt="">
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="https://t.me/AlexeyBobko" class="social__link">
+                        <img src="assets/images/share/twitter.svg" alt="">
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="https://t.me/AlexeyBobko" class="social__link">
+                        <img src="assets/images/share/vk.svg" alt="">
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="https://t.me/AlexeyBobko" class="social__link">
+                        <img src="assets/images/share/copy.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        <button class="modal__close" type="button">
+            <img src="assets/images/cancel.svg" alt="Close">
+        </button>
+        </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
